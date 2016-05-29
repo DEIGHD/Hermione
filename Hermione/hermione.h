@@ -10,7 +10,7 @@ private:
 	string m_operation = "";
 	char m_unknown = 'x';
 	//ElementEquation *m_element_equation;
-	unsigned char m_flag = 0; // 0 -ничего, 1 - число, 2 - операция, 3 - неизвестная // 4 - блок эллементов
+	unsigned char m_flag = 0; // 0 - nothing, 1 - number , 2 - operation, 3 - unknown // 4 - block of elemets
 public:
 	void set(int);
 	void set(string);
